@@ -23,6 +23,7 @@ const GetStarted = () => (
       </motion.div>
       <motion.div
         className="flex-[0.75] flex justify-center flex-col"
+        variants={fadeIn('left', 'tween', 0.2, 1)}
       >
         <TypingText title="| How Meteversus Works" />
         <TitleText title={<>Get started with just a few clicks</>} />
